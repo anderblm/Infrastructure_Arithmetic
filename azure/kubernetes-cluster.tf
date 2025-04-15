@@ -13,6 +13,7 @@ resource "azurerm_kubernetes_cluster" "p466cluster" {
   }
   identity {
     type = "SystemAssigned"
+
   }
 
 }
